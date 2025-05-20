@@ -168,7 +168,7 @@ ind {
 	color: #ccc;
 }
 
-@media (min-width: 384px) {
+@media (max-width: 384px) {
 	.repo-box {
 		padding: 10px;
 		margin: 8px;
@@ -199,7 +199,7 @@ disc-profile a {
 	border-radius: 6px;
 }
 
-@media (min-width: 384px) {
+@media (max-width: 384px) {
 	.disc-profile {
 		max-width: 100%;
 	}
@@ -256,7 +256,7 @@ disc-profile a {
 	max-width: 160px;
 }
 
-@media (min-width: 384px) {
+@media (max-width: 384px) {
 	.intro {
 		flex-direction: row;
 		font-size: 28px;
@@ -444,7 +444,7 @@ ind {
 	color: #ccc;
 }
 
-@media (min-width: 384px) {
+@media (max-width: 384px) {
 	.repo-box {
 		padding: 10px;
 		margin: 8px;
@@ -456,7 +456,7 @@ ind {
 	}
 }
 
-@media (min-width: 384px) {
+@media (max-width: 384px) {
 	.disc-profile {
 		max-width: 94vw;
 	}
@@ -484,7 +484,7 @@ ind {
 	max-width: 160px;
 }
 
-@media (min-width: 384px) {
+@media (max-width: 384px) {
 	.intro {
 		flex-direction: row;
 		font-size: 24px;
