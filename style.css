@@ -83,6 +83,13 @@ intro {
   animation: in 0.8s forwards;
 }
 
+.col-1, .col-2 {
+  flex: 1;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: in 0.8s forwards;
+}
+
 .con {
   padding: 4px;
   background-color: #202020;
