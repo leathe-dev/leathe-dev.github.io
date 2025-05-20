@@ -13,7 +13,7 @@ a {
 	text-decoration: none;
 	transition: all 0.2s;
 	width: auto;
-	background-color: #181818;
+	background: #181818;
 	border-radius: 6px;
 }
 
@@ -29,7 +29,7 @@ body {
 	margin-top: 40px;
 	overflow-x: hidden;
 	font-size: 16px;
-	background-color: #181818;
+	background: #181818;
 }
 
 @keyframes in {
