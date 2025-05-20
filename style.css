@@ -212,3 +212,33 @@ ind {
   overflow: hidden;
   background-color: #2f3136;
 }
+
+@media (max-width: 768px) {
+    .wrap {
+      width: 60%;
+      padding: 0 10px;
+    }
+    
+    intro {
+    display: block !important;
+    text-align: center;
+  }
+    
+    nav {
+    width: 100%;
+  }
+
+  .col-2 {
+    justify-content: center;
+  }
+}
+  
+  .ico {
+  width: 400px;
+  height: 400px;
+  margin-right: 20px;
+  border-radius: 12px;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: in 0.6s forwards;
+}
