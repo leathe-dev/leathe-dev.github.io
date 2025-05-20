@@ -220,7 +220,7 @@ ind {
   background-color: #2f3136;
 }
 
-.intro, .col-1, .col-2 {
+.col-1, .col-2 {
   display: flex;
   opacity: 0;
   transform: translateY(20px);
@@ -242,7 +242,7 @@ ind {
     width: 100%;
   }
 
-  .col-2 {
+  .col-1, .col-2 {
     justify-content: center;
   }
 }
