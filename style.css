@@ -12,6 +12,9 @@
 a {
 	text-decoration: none;
 	transition: all 0.2s;
+	width: auto;
+	background-color: #181818;
+	border-radius: 6px;
 }
 
 a:hover {
@@ -189,14 +192,6 @@ ind {
 	overflow: hidden;
 	border: solid 2px #2f3136;
 	box-sizing: border-box;
-}
-
-disc-profile a {
-	width: 4%;
-	padding: 4px;
-	background-color: #202020;
-	border: solid 1px #343434;
-	border-radius: 6px;
 }
 
 @media (max-width: 384px) {
