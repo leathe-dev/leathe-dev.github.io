@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
 
@@ -41,7 +40,7 @@
 
 <body>
   <div class="wrap">
-    <nav style="display: flex; width: 14%; justify-content: space-between">
+    <nav>
       <a href="index.html">home</a>
       <ind></ind>
       <a href="contact.html">contact</a>
@@ -50,52 +49,53 @@
     </nav>
 
     <!-- PAGE CONTENT GOES HERE -->
-    <h1 id="wave">
+   <h1 id="wave">
   <ind>hi,<ind>i'm<ind><span class="gradmask">le</span>!
 </h1>
 
-<intro>
-  <col-1>
+<div class="intro">
+  <div class="col-1 col-left">
     <img src="img/ico.png" class="ico">
     <p class="user">he/any ∙ <span id="lang" title="i only know a little bit, along with some spanish.">vietnamese</span></p>
-  </col-1>
-  <col-1>
+  </div>
+  <div class="col-1" style="">
     <br>
     im a (mostly frontend, i barely understand js) developer currently trying (struggling) to learn backend development. i like computers, drawing, and web-design.
     <p>
 
-      <col-2>
-        <span style="font-size: 20px" class="con material-symbols-outlined">
-          location_on
-        </span>
-        <span style="margin-left: 9px">United States</span>
-      </col-2>
+    <col-2>
+      <span style="font-size: 20px" class="con material-symbols-outlined">
+        location_on
+      </span>
+      <span style="margin-left: 9px">United States</span>
+    </col-2>
 
-      <col-2>
-        <span style="font-size: 20px" class="con material-symbols-outlined">
-          schedule
-        </span>
-        <span style="margin-left: 9px">
-          <span id="pst"></span> · PST
-          <script>
-            setInterval(() => {
-              const pst = new Date().toLocaleTimeString("en-US", {
-                timeZone: "America/Los_Angeles"
-              });
-              document.getElementById("pst").textContent = pst;
-            }, 1000);
-          </script>
-        </span>
-      </col-2>
-  </col-1>
-
-  <h2>currently learning</h2>
-  <learnbox>
-    <i class="fa-brands fa-js" title="Javascript"></i>
-    <ind><i class="fa-solid fa-code" title="C++"></i>
-  </learnbox>
-</intro>
-
+    <col-2>
+      <span style="font-size: 20px" class="con material-symbols-outlined">
+        schedule
+      </span>
+      <span style="margin-left: 9px">
+        <span id="pst"></span> · PST
+        <script>
+          setInterval(() => {
+            const pst = new Date().toLocaleTimeString("en-US", {
+              timeZone: "America/Los_Angeles"
+            });
+            document.getElementById("pst").textContent = pst;
+          }, 1000);
+        </script>
+      </span>
+    </col-2>
+    
+    
+<h2>currently learning</h2>
+<learnbox>
+  <i class="fa-brands fa-js" title="Javascript"></i>
+  <ind></ind><i class="fa-solid fa-code" title="C++"></i>
+</learnbox>
+    
+  </div>
+</div>
 
     <footer>
       © 2025 Le • licensed under GPL v3 ∙ <a href="https://github.com/leathe-dev/leathe-dev.github.io/">site source</a>
