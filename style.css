@@ -266,7 +266,7 @@ ind {
 	max-width: 160px;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 2200px) {
 	.intro {
 		flex-direction: column;
 		font-size: 22px;
@@ -278,7 +278,6 @@ ind {
 	}
 
 	.ico {
-		margin: auto;
 	}
 
 	.col-left {
