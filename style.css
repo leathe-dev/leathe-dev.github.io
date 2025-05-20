@@ -110,9 +110,7 @@ learnbox {
 }
 
 nav {
-  display: flex;
   width: 40%;
-  justify-content: space-between";
 }
 
 #wave span {
