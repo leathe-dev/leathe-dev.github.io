@@ -303,7 +303,7 @@ body {
 	animation: in 0.8s forwards;
 	margin-top: 40px;
 	overflow-x: hidden;
-	font-size: 16px;
+	font-size: 20px;
 }
 
 @keyframes in {
