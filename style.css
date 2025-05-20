@@ -198,6 +198,14 @@ ind {
 	box-sizing: border-box;
 }
 
+disc-profile a {
+	width: 4%;
+	padding: 4px;
+	background-color: #202020;
+	border: solid 1px #343434;
+	border-radius: 6px;
+}
+
 @media (min-width: 384px) {
 	.disc-profile {
 		max-width: 100%;
