@@ -269,6 +269,7 @@ ind {
 @media only screen and (min-width: 600px) {
 	.intro {
 		flex-direction: column;
+		font-size: 22px;
 	}
 
 	.col-1,
