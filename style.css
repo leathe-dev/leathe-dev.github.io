@@ -266,7 +266,7 @@ ind {
 	max-width: 160px;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 2340px) {
 	.intro {
 		flex-direction: column;
 	}
