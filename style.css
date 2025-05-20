@@ -227,8 +227,7 @@ ind {
   }
 
   intro {
-    flex-direction: column;
-    align-items: center;
+    display: block;
     text-align: center;
   }
 
