@@ -52,6 +52,27 @@
    <h1 id="wave">
   <ind>hi,<ind>i'm<ind><span class="gradmask">le</span>!
 </h1>
+    <script>
+      const waveEl = document.getElementById("wave");
+
+      function wrapLetters(node) {
+        if (node.nodeType === Node.TEXT_NODE) {
+          const text = node.textContent;
+          const fragment = document.createDocumentFragment();
+          [...text].forEach((char, i) => {
+            const span = document.createElement("span");
+            span.textContent = char;
+            span.style.animationDelay = (i * 0.2) + "s"; // delay grows with index
+            fragment.appendChild(span);
+          });
+          node.replaceWith(fragment);
+        } else if (node.nodeType === Node.ELEMENT_NODE) {
+          if (node.classList.contains("gradmask")) return; // skip gradmask span letters
+          [...node.childNodes].forEach(wrapLetters);
+        }
+      }
+      wrapLetters(waveEl);
+    </script>
 
 <div class="intro">
   <div class="col-1 col-left">
