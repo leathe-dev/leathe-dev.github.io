@@ -136,7 +136,7 @@ ind {
 	padding: 12px;
 	margin: 10px;
 	width: 100%;
-	max-width: 800px;
+	max-width: 400px;
 	background-color: #202020;
 	font-family: monospace;
 	transition: all 0.2s;
@@ -420,7 +420,7 @@ ind {
 	padding: 12px;
 	margin: 10px;
 	width: 100%;
-	max-width: 800px;
+	max-width: 400px;
 	background-color: #202020;
 	font-family: monospace;
 	transition: all 0.2s;
