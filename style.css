@@ -216,6 +216,35 @@ ind {
   }
 }
 
+.banner {
+  width: 100%;
+  height: 60px;
+  background-image: url("https://leathe-dev.github.io/img/disc-h.gif");
+  background-size: cover;
+}
+
+.avi {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 4px solid #2f3136;
+  margin-top: -20px;
+  margin-left: 4px;
+  background-color: #202225;
+  position: relative;
+  z-index: 1;
+}
+
+.disc-user {
+  font-weight: 600;
+  font-size: 14px;
+  padding-left: 8px;
+  padding-bottom: 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  background-color: #2f3136;
+}
+
 .intro {
 	display: flex;
 	flex-wrap: wrap;
