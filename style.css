@@ -174,7 +174,7 @@ ind {
   color: #ccc;
 }
 
-@media (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .repo-box {
     padding: 10px;
     margin: 8px auto;
@@ -210,7 +210,7 @@ ind {
   box-sizing: border-box;
 }
 
-@media (max-width: 500px) {
+@media only screen and (max-width: 500px) {
   .disc-profile {
     max-width: 94vw;
   }
@@ -266,7 +266,7 @@ ind {
 	max-width: 160px;
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 600px) {
 	.intro {
 		flex-direction: column;
 	}
