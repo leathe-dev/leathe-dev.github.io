@@ -1,6 +1,5 @@
 * {
 	font-family: inter;
-	background-color: #181818;
 	color: #e5e5e5;
 	transition: all 0.4s;
 }
@@ -27,6 +26,7 @@ body {
 	margin-top: 40px;
 	overflow-x: hidden;
 	font-size: 16px;
+	background-color: #181818;
 }
 
 @keyframes in {
