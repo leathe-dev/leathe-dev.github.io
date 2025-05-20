@@ -375,14 +375,6 @@ intro {
 	transform: scale(1.04);
 }
 
-learnbox {
-	background: #131313;
-	padding: 4px;
-	border-radius: 4px;
-	border: solid 1px #2b2b2b;
-	width: 12%;
-}
-
 #pst {
 	color: #afabab;
 }
