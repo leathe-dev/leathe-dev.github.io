@@ -188,7 +188,7 @@ ind {
 }
 
 .disc-profile {
-	width: 100%;
+	width: 40%;
 	max-width: 240px;
 	background: #2f3136;
 	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -200,7 +200,7 @@ ind {
 
 @media (min-width: 384px) {
 	.disc-profile {
-		max-width: 94vw;
+		max-width: 100%;
 	}
 }
 
