@@ -1,4 +1,4 @@
-* {
+  * {
 	font-family: inter;
 	color: #e5e5e5;
 	background-color: #181818;
@@ -227,27 +227,11 @@ ind {
 }
 
 .intro {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 20px;
-	flex-direction: column;
 	opacity: 0;
 	transform: translateY(20px);
 	animation: in 0.8s forwards;
 }
-
-.col-1,
-.col-2 {
-	display: flex;
-	flex: 1;
-	flex-direction: column;
-}
-
-.col-left {
-	flex: 0 0 160px;
-	max-width: 160px;
-}
-
+  
 footer {
 	margin-top: 20px;
 }
@@ -269,7 +253,6 @@ footer {
 	}
 
 	.intro {
-		flex-direction: row;
 		font-size: 24px;
 	}
 
@@ -277,8 +260,3 @@ footer {
 	.col-2 {
 		width: 100%;
 	}
-
-	.col-left {
-		margin: auto;
-	}
-}
