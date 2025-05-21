@@ -107,6 +107,7 @@ box-1 {
 	border: solid 1px #343434;
 	border-radius: 6px;
 	transition: all 0.2s;
+	font-size: 20px;
 }
 
 .con:hover {
