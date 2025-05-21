@@ -196,17 +196,6 @@ ind {
       margin-top: 6px;
       font-size: 14px;
       color: #ccc;
-      padding-left: 34px;
-    }
-
-    .avatar-icon {
-      width: 24px;
-      height: 24px;
-      border-radius: 50%;
-      position: absolute;
-      top: 10px;
-      left: 12px;
-      border: 1px solid #444;
     }
 
 .disc-profile {
