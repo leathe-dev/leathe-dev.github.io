@@ -116,6 +116,14 @@ box-1 {
 	transform: scale(1.04);
 }
 
+con-2 {
+	border: solid 1px #cea4a4;
+	background: #231d1d;
+	border-radius: 12px;
+	padding: 6px;
+	margin: 10px;
+}
+
 learnbox {
 	background: #131313;
 	padding: 4px;
