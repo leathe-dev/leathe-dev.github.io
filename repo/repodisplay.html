@@ -1,9 +1,10 @@
 <!-- Font Awesome for redirect icon -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 <div id="github-repos"></div>
+
 <script 
   src="https://leathe-dev.github.io/repo/github-repo.js" 
-  data-username="kch"
+  data-username="kch" 
   data-container="github-repos">
 </script>
 
@@ -68,37 +69,3 @@
   flex-shrink: 0;
 }
 </style>
-
-<!-- Script -->
-<script>
-(function () {
-  const username = "USERNAME HERE";
-  const containerId = "github-repos";
-  const container = document.getElementById(containerId);
-  if (!container || !username) return;
-
-  fetch(`https://api.github.com/users/${username}`)
-    .then(res => res.json())
-    .then(user => {
-      const avatarUrl = user.avatar_url + "&s=40";
-
-      fetch(`https://api.github.com/users/${username}/repos`)
-        .then(res => res.json())
-        .then(repos => {
-          repos.forEach(repo => {
-            const box = document.createElement("div");
-            box.className = "repo-box";
-            box.innerHTML = `
-              <a class="redirect" href="${repo.html_url}" target="_blank" title="View on GitHub"><i class="fas fa-external-link-alt"></i></a>
-              <div class="repo-header">
-                <img src="${avatarUrl}" alt="${username} avatar">
-                <a href="${repo.html_url}" target="_blank">${username} / ${repo.name}</a>
-              </div>
-              <p class="repo-desc">${repo.description || "No description"}</p>
-            `;
-            container.appendChild(box);
-          });
-        });
-    });
-})();
-</script>
