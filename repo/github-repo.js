@@ -1,5 +1,4 @@
 (function () {
-  const username = "USERNAME HERE";
   const containerId = "github-repos";
   const container = document.getElementById(containerId);
   if (!container || !username) return;
