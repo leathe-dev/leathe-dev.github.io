@@ -189,20 +189,6 @@ ind {
   color: #ccc;
 }
 
-.repo-header {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.repo-header img {
-  width: 24px;
-  height: 24px;
-  object-fit: cover;
-  border-radius: 4px;
-  flex-shrink: 0;
-}
-
 .disc-profile {
 	width: 40%;
 	max-width: 240px;
