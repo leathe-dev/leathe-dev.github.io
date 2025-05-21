@@ -1,7 +1,6 @@
-  * {
+* {
 	font-family: inter;
 	color: #e5e5e5;
-	background-color: #181818;
 	transition: all 0.4s;
 }
 
@@ -23,6 +22,9 @@ a:hover {
 }
 
 body {
+	background-color: #181818;
+	color: #e5e5e5;
+	font-family: inter;
 	opacity: 0;
 	transform: translateY(20px);
 	animation: in 0.8s forwards;
