@@ -79,7 +79,7 @@ body {
 	-webkit-text-fill-color: transparent;
 }
 
-.box-1 {
+box-1 {
 	border: solid 1px #cea4a4;
 	border-radius: 12px;
 	padding: 6px;
