@@ -79,6 +79,13 @@ body {
 	-webkit-text-fill-color: transparent;
 }
 
+.box-1 {
+	border: solid 1px #cea4a4;
+	border-radius: 12px;
+	padding: 6px;
+	width: 100%;
+}
+
 .ico {
 	width: 160px;
 	height: 160px;
