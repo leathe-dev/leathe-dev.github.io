@@ -1,4 +1,4 @@
-const username = 'chinuno-usami';
+const username = 'leathe-dev';
     const reposContainer = document.getElementById('github-repos');
 
     fetch(`https://api.github.com/users/${username}/repos?sort=updated`)
