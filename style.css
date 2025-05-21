@@ -127,6 +127,7 @@ con-2 {
 
 con-2:hover {
 	box-shadow: 0 0 4px #cea4a4;
+	transform: scale(1.04);
 }
 
 learnbox {
