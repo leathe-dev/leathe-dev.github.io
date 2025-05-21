@@ -122,6 +122,11 @@ con-2 {
 	border-radius: 12px;
 	padding: 6px;
 	line-height: 18px;
+	transition: all 0.4s;
+}
+
+con-2:hover {
+	box-shadow: 0 0 4px #cea4a4;
 }
 
 learnbox {
